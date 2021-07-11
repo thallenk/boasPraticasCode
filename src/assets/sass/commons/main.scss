@@ -1,4 +1,39 @@
+$backGroundBlack: #000;
+$fontColorWhite: white;
+$fontFamily: 'Roboto', sans-serif;
+
 *{
   margin: 0;
   padding: 0;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: $backGroundBlack;
+  color: $fontColorWhite;
+  font-family: $fontFamily;
+ 
+ 
+}
+
+h1, h2, h3, h4 {
+  font: $fontFamily
+}
+
+.main-left {
+  position:fixed;
+  left: 10px;
+  bottom: 10px;
+}
+
+.footer-container {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
 }

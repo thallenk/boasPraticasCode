@@ -1,17 +1,8 @@
 # Gama Academy :)
-## Template Node FullJS
 
-Para iniciar o projeto:
-`git clone https://github.com/mrdouglasmorais/template-node-fulljs`
 
-Para instalar as dependências:
-`npm i`
+Esse projeto teve como intuito aprender as boas práticas da programação em um cotidiano profissional.
+Pontos como estrutura dos arquivos, divisão de componentes em pastas específicas para cada finalidade.
+Além disso foi utilizado o sass para estilização da página realizando a devida transformação para arquivo css para que o navegador consiga ler. O sass é uma forma mais organizada de realzar a estilização foi é possível utilizar a ideia de filhos nos comandos de estilização.
 
-Para iniciar em modo de desenvolvimento:
-`npm start`
-
-## Aconselhado ter instalado NODEJS versão 14.x em diante.
-
-Para instalar o node [clique aqui](https://nodejs.org/en/)
-
-## Professor Douglas Morais
+Outra coisa trabalhada foi a questão da responsividade do site utilizada o @media.

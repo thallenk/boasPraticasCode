@@ -4,9 +4,13 @@ import Utils from '../src/service/Utils';
 /** Pages **/
 import { error404, home } from './views/pages/index';
 
+
 /** Routes **/
 let routes = {
     '/': home,
+    // '/#section-one': homeSectionOne,
+    // '/#section-two': homeSectionTwo,
+
 }
 
 const router = async () => {

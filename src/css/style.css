@@ -1,5 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #000;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font: "Roboto", sans-serif;
+}
+
+.main-left {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
+
+.footer-container {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.section {
+  height: 100vh;
+  width: 100%;
+}
+
+.background--one {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.background--one .block-section--one {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.background--one .block-section--one h1 {
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 32px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.background--two {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+}
+.background--two .block-section--two {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  padding-top: 90px;
+}
+.background--two .block-section--two .text-block--two {
+  height: 100%;
+}
+.background--two .block-section--two .text-block--two img {
+  margin: 90px 0px 0px 90px;
+}
+
+@media (max-width: 600px) {
+  .background--one {
+    height: 1200px;
+    top: 20px;
+  }
+  .background--one .block-section--one {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .background--two {
+    height: 1200px;
+    top: 20px;
+  }
+  .background--two .block-section--two {
+    display: grid;
+  }
+  .background--two .block-section--two p {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+  .background--two .block-section--two img {
+    margin: 0 auto;
+    max-width: 60%;
+  }
+
+  .footer-contain {
+    margin-top: calc(10px - 210px);
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

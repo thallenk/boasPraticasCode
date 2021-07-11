@@ -1,0 +1,35 @@
+@media (max-width:600px){
+    .background--one{
+        height: 1200px;
+        top: 20px;
+        
+        .block-section--one{
+            display: block;
+            margin-top: 20px;
+        }
+    }
+
+    .background--two{
+        height: 1200px;
+        top: 20px;
+        
+        .block-section--two{
+            display: grid;
+
+
+            & p {
+                text-align: center;
+                margin-left: 0;
+                margin-top: 40px;
+            }
+
+            & img {
+                margin: 0 auto;
+                max-width: 60%;
+            }
+        }
+    }
+    .footer-contain{
+        margin-top: calc(10px - 210px);
+    }
+}
